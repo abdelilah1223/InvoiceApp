@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/invoiceCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#F7F7F7"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- أيقونة الفاتورة -->
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/invoice_icon_bg"
+            android:gravity="center"
+            android:layout_marginEnd="16dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_invoice"
+                android:tint="#4A90E2" />
+
+        </LinearLayout>
+
+        <!-- معلومات الفاتورة -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/invoiceNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اسم الفاتورة"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/cairo_bold" />
+
+            <TextView
+                android:id="@+id/clientText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="العميل: اسم العميل"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="4dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/cairo_regular"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/companyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الشركة: اسم الشركة"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_marginTop="2dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/cairo_regular"
+                android:drawableStart="@drawable/ic_business"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/totalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="المجموع "
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#4A90E2"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/cairo_bold"
+                android:drawableStart="@drawable/ic_money"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <!-- زر القائمة -->
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/menu_button_bg"
+            android:src="@drawable/ic_more_vert"
+            android:contentDescription="خيارات الفاتورة"
+            android:layout_marginStart="8dp"
+            android:tint="#4A90E2" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

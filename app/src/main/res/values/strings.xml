@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">invoice-app</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="add" translatable="false">Add</string>
+    <string name="services" translatable="false">Services</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+        <string name="company_information">Company Information</string>
+        <string name="client_information">Client Information</string>
+        <string name="invoice_items">Invoice Items</string>
+        <string name="additional_settings">Additional Settings</string>
+
+        <!-- Company Section -->
+        <string name="company_name">Company name</string>
+        <string name="company_phone">Company phone</string>
+        <string name="email">Email</string>
+        <string name="address">Address</string>
+        <string name="add_logo">Add logo</string>
+        <string name="company_logo">Company logo</string>
+
+        <!-- Client Section -->
+        <string name="client_name">Client name</string>
+        <string name="client_phone">Client phone</string>
+
+        <!-- Items Section -->
+        <string name="item_name">Item name</string>
+        <string name="quantity">Quantity</string>
+        <string name="price">Price</string>
+        <string name="add_item">Add Item</string>
+
+        <!-- Additional Section -->
+        <string name="currency">Currency</string>
+        <string name="tax_rate">Tax rate (%)</string>
+        <string name="add_signature">Add signature</string>
+        <string name="signature">Signature</string>
+
+        <!-- Totals -->
+        <string name="subtotal">Subtotal:</string>
+        <string name="tax">Tax:</string>
+        <string name="total">Total:</string>
+
+        <!-- Buttons -->
+        <string name="save_invoice">Save Invoice</string>
+        <string name="cancel">Cancel</string>
+        <string name="save">Save</string>
+
+        <!-- Messages -->
+        <string name="fill_all_fields">Please fill all fields</string>
+        <string name="invalid_numbers">Invalid numbers</string>
+        <string name="delete_item">Delete Item</string>
+        <string name="confirm_delete">Are you sure you want to delete this item?</string>
+        <string name="delete">Delete</string>
+        <string name="invoice_name">Invoice name</string>
+        <string name="enter_name">Please enter invoice name</string>
+        <string name="invoice_saved">Invoice saved successfully</string>
+    <string name="currency_placeholder">Currency (e.g. DH, $)</string>
+    <string name="tax_rate_placeholder">Tax Rate (%)</string>
+    <string name="edit">Edit</string>
+    <string name="edit_ar">تعديل</string>
+        <!-- Arabic Strings -->
+        <string name="company_information_ar" translatable="false">بيانات الشركة</string>
+        <string name="client_information_ar" translatable="false">بيانات العميل</string>
+        <string name="invoice_items_ar" translatable="false">عناصر الفاتورة</string>
+        <string name="additional_settings_ar" translatable="false">إعدادات إضافية</string>
+
+        <string name="company_name_ar" translatable="false">اسم الشركة</string>
+        <string name="company_phone_ar" translatable="false">هاتف الشركة</string>
+        <string name="email_ar" translatable="false">البريد الإلكتروني</string>
+        <string name="address_ar" translatable="false">العنوان</string>
+        <string name="add_logo_ar" translatable="false">إضافة شعار</string>
+
+        <string name="client_name_ar">اسم العميل</string>
+        <string name="client_phone_ar">هاتف العميل</string>
+
+        <string name="item_name_ar">اسم العنصر</string>
+        <string name="quantity_ar">الكمية</string>
+        <string name="price_ar">السعر</string>
+        <string name="add_item_ar">إضافة عنصر</string>
+
+        <string name="currency_ar">العملة</string>
+        <string name="tax_rate_ar">نسبة الضريبة (%)</string>
+        <string name="add_signature_ar">إضافة توقيع</string>
+
+        <string name="subtotal_ar">المجموع الفرعي:</string>
+        <string name="tax_ar">الضريبة:</string>
+        <string name="total_ar">المجموع الكلي:</string>
+
+        <string name="save_invoice_ar">حفظ الفاتورة</string>
+        <string name="cancel_ar">إلغاء</string>
+        <string name="save_ar">حفظ</string>
+
+        <string name="fill_all_fields_ar">الرجاء إكمال جميع الحقول</string>
+        <string name="invalid_numbers_ar">أرقام غير صالحة</string>
+        <string name="delete_item_ar">حذف العنصر</string>
+        <string name="confirm_delete_ar">هل أنت متأكد من حذف هذا العنصر؟</string>
+        <string name="delete_ar">حذف</string>
+        <string name="invoice_name_ar">اسم الفاتورة</string>
+        <string name="enter_name_ar">الرجاء إدخال اسم الفاتورة</string>
+        <string name="invoice_saved_ar">تم حفظ الفاتورة بنجاح</string>
+    <string name="currency_placeholder_ar">العملة (مثل د.م, $)</string>
+    <string name="tax_rate_placeholder_ar">نسبة الضريبة (%)</string>
+
+
+    <string name="invoice_loaded">Invoice loaded successfully</string>
+    <string name="invoice_not_found">Invoice not found</string>
+    <string name="save_failed">Failed to save invoice</string>
+
+    <string name="invoice_loaded_ar">تم تحميل الفاتورة بنجاح</string>
+    <string name="invoice_not_found_ar">الفاتورة غير موجودة</string>
+    <string name="save_failed_ar">فشل حفظ الفاتورة</string>
+    <string name="failed_load_image">failed to load the file</string>
+</resources>

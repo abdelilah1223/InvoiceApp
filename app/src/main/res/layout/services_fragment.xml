@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="30dp"
+            android:background="@drawable/gradient_header">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_logo"
+                android:tint="#4A90E2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برو سوليوشنز"
+                android:textColor="#2C3E50"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حلول رقمية تأخذ عملك إلى المستقبل"
+                android:textColor="#7F8C8D"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:paddingHorizontal="20dp" />
+        </LinearLayout>
+
+        <!-- Statistics Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:radius="10dp"
+            android:elevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="في عالم رقمي:"
+                    android:textColor="#2C3E50"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_phone"
+                        android:tint="#4A90E2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6.8 مليار مستخدم للهواتف الذكية حول العالم"
+                        android:textColor="#34495E"
+                        android:textSize="15sp"
+                        android:layout_marginStart="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_cart"
+                        android:tint="#4A90E2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="نمو التجارة الإلكترونية بنسبة 23٪ سنوياً"
+                        android:textColor="#34495E"
+                        android:textSize="15sp"
+                        android:layout_marginStart="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_search"
+                        android:tint="#4A90E2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="87٪ من العملاء يبحثون عن الخدمات عبر الإنترنت أولاً"
+                        android:textColor="#34495E"
+                        android:textSize="15sp"
+                        android:layout_marginStart="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Motivational Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:radius="10dp"
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="لماذا الآن هو الوقت المثالي للتحول الرقمي؟"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="في عصر يعتمد على السرعة والكفاءة، لم يعد الوجود الرقمي رفاهية بل ضرورة. كل يوم تأخير يعني فرصًا ضائعة وعملاء محتملين يذهبون إلى منافسيك."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:lineSpacingMultiplier="1.5"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="لا تترك عملك خارج المنافسة. دعونا نبني معًا الحل التقني الذي سيميزك في السوق ويساعدك على الوصول إلى عملاء جدد وزيادة مبيعاتك."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:lineSpacingMultiplier="1.5"
+                    android:gravity="center" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Services Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حلولنا المخصصة لك"
+                android:textColor="#2C3E50"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:radius="10dp"
+                android:elevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/ic_phone"
+                        app:tint="#4A90E2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="تطبيقات الجوال"
+                        android:textColor="#2C3E50"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginVertical="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="حلول متكاملة لوجودك في جيب كل عميل. تطبيقات سريعة وسهلة الاستخدام تعمل على جميع الأجهزة."
+                        android:textColor="#7F8C8D"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.5" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:radius="10dp"
+                android:elevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:src="@drawable/ic_globe"
+                        android:tint="#4A90E2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="مواقع الويب"
+                        android:textColor="#2C3E50"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginVertical="10dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="وجهك الرقمي الذي يعمل 24/7. مواقع ويب سريعة وآمنة مصممة لتحويل الزوار إلى عملاء."
+                        android:textColor="#7F8C8D"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.5" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <!-- CTA Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="هل أنت مستعد للبدء؟"
+                android:textColor="#2C3E50"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="دعونا نتحدث عن مشروعك في مكالمة مجانية مدتها 15 دقيقة"
+                android:textColor="#7F8C8D"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/whatsappButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تواصل عبر واتساب"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/ic_whatsapp"
+                android:drawableTint="#FFFFFF"
+                android:drawablePadding="10dp"
+                android:paddingVertical="12dp"
+                android:paddingHorizontal="25dp"
+                android:background="#25D366"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="#25D366" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="أو تواصل معنا عبر:"
+                android:textColor="#95A5A6"
+                android:textSize="14sp"
+                android:layout_marginBottom="15dp" />
+
+            <!-- Replace all ImageView elements with ImageButton for social media icons -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/facebookButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_facebook"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:tint="#3b5998"
+                    android:layout_marginHorizontal="8dp"
+                    android:scaleType="centerInside" />
+
+                <ImageButton
+                    android:id="@+id/instagramButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_instagram"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:tint="#E1306C"
+                    android:layout_marginHorizontal="8dp"
+                    android:scaleType="centerInside" />
+
+                <ImageButton
+                    android:id="@+id/emailButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_email"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:tint="#D44638"
+                    android:layout_marginHorizontal="8dp"
+                    android:scaleType="centerInside" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Footer -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/border_top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="برو سوليوشنز © 2023"
+                android:textColor="#95A5A6"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نحو مستقبل رقمي أفضل"
+                android:textColor="#95A5A6"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
